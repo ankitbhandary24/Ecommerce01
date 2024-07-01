@@ -3,6 +3,7 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    background-color: white;
 }
 
 .nav-logo {
@@ -58,11 +59,11 @@
     color: #515151;
     font-size: 20px;
     font-weight: 500;
-    background: white;
+    background: rgb(226, 247, 199);
     cursor: pointer;
 }
 .nav-login-cart button:active{
-    background: #f3f3f3;
+    background:#d6ff33;
 }
 .nav-cart-count{
     width: 22px;
@@ -74,6 +75,6 @@
     margin-left: -55px;
     border-radius: 11px;
     font-size: 14px;
-    background-color: red;
+    background-color: orange;
     color: white;
 }
