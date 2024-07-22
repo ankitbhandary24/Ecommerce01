@@ -10,23 +10,24 @@ const footer = () => {
             <div className="footer-logo">
                 <img src={footer_logo} alt="" />
                 <p>SLIMEY</p>
-                <ul className="footer_links">
-                    <li>Company</li>
-                    <li>Priducts</li>
-                    <li>Offices</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-                <div className="footer-sicial-icon">
-                    <div className="footer-icons-container">
-                        <img src={instagram_icon} alt="" />
-                    </div>
-                    <div className="footer-icons-container">
-                        <img src={pinterest_icon} alt="" />
-                    </div>
-                    <div className="footer-icons-container">
-                        <img src={whatsapp_icon} alt="" />
-                    </div>
+            </div>
+            <ul className="footer-links">
+                <li>Company</li>
+                <li>Priducts</li>
+                <li>Offices</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+
+            <div className="footer-social-icon">
+                <div className="footer-icons-container">
+                    <img src={instagram_icon} alt="" />
+                </div>
+                <div className="footer-icons-container">
+                    <img src={pinterest_icon} alt="" />
+                </div>
+                <div className="footer-icons-container">
+                    <img src={whatsapp_icon} alt="" />
                 </div>
             </div>
             <div className="footer-copyright">
